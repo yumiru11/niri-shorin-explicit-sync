@@ -1,0 +1,10 @@
+{
+    "name": "niri build",
+    "image": "mcr.microsoft.com/devcontainers/rust:1",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/rust:1": {}
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libdisplay-info-dev libxkbcommon-dev libgl-dev libinput-dev libseat-dev libpixman-1-dev libwayland-dev wayland-protocols libegl1-mesa-dev libgles2-mesa-dev libgbm-dev libsystemd-dev libpipewire-0.3-dev cmake clang libxcb1-dev libxcb-composite0-dev libxcb-dpms0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-shm0-dev libxcb-sync-dev libxcb-util-dev libxcb-xfixes0-dev libxcb-xinput-dev libxcb-xv-dev libxcb-xtest0-dev pkg-config",
+    "remoteUser": "vscode"
+}
